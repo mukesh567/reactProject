@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: orange;
+
+
+
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        height: 120px;
+        position: relative;
+
+        .left {
+            display: flex;
+            margin-left: 320px;
+            padding: 30px;
+
+            .first {
+
+                select {
+                    width: 150px;
+                    height: 47px;
+                    color: grey;
+                }
+            }
+
+            .second {
+                position: relative;
+
+                input {
+                    width: 600px;
+                    height: 45px;
+                    padding-left: 15px;
+                    font-size: 20px;
+                    color: gray;
+                    border: none;
+                    border: 1px solid white;
+                }
+
+                button {
+                    width: 90px;
+                    height: 47px;
+                    background-color: black;
+                    color: white;
+                    border: none;
+                    border-radius: 5px;
+                    position: absolute;
+                    cursor: pointer;
+                    //right: 1px;
+                }
+            }
+        }
+
+        .right {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+            .items {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 60px;
+                position: absolute;
+                right: 690px;
+
+
+                .item {
+                    position: relative;
+
+                    img {
+                        width: 40px;
+                        height: 40px;
+                        background: none;
+                        border: none;
+                        overflow: hidden;
+                    }
+
+                    span {
+                        position: absolute;
+                        box-sizing: border-box;
+                        border: 1px solid white;
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 35px;
+
+                        background-color: black;
+                        top: 30px;
+                        right: 0.1px;
+                    }
+                }
+            }
+
+            .user {
+
+                display: flex;
+                justify-content: space-between;
+                gap: 10px;
+                align-items: center;
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 20px;
+                }
+
+                .log {
+                    margin-right: 30px;
+
+                    h2 {
+                        color: black;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+
+}
